@@ -5,44 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bakery</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
       <h1>Bakery</h1>
     </header>
+
+    <!-- Primary section -->
     <section id="primary">
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic blanditiis
-        sed mollitia quia enim magnam dolor corrupti facilis quisquam magni
-        dignissimos eaque illum aliquid, eius quibusdam suscipit laudantium
-        accusantium quae.
-      </p>
-    <img src="./images/cupcake.jpg" height="200px" width="200px">
+      <div class="section-cta">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
+          blanditiis sed mollitia quia enim magnam dolor corrupti facilis
+          quisquam magni dignissimos eaque illum aliquid, eius quibusdam
+          suscipit laudantium accusantium quae.
+        </p>
+      </div>
+      <img src="./images/cupcake.jpg" height="200px" width="200px" />
     </section>
+
+    <!-- menu section -->
     <section id="menu">
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rem vitae
-        vero. Sit omnis quaerat debitis aperiam, fugiat modi. Ab libero nulla
-        ipsa asperiores cum soluta quae! Aspernatur, accusantium eveniet?
-      </p>
+      <div class="section-cta">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rem
+          vitae vero. Sit omnis quaerat debitis aperiam, fugiat modi. Ab libero
+          nulla ipsa asperiores cum soluta quae! Aspernatur, accusantium
+          eveniet?
+        </p>
+      </div>
     </section>
+
+    <!--Order now section-->
     <section id="orderNow">
-      <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam non
-        sequi recusandae corporis minima quaerat atque. Nemo rerum omnis esse
-        sint, nisi a ullam eius obcaecati sit facilis suscipit ipsa.
-      </p>
-      <button type="submit">Order Now</button>
+      <div class="section-cta">
+        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam non
+          sequi recusandae corporis minima quaerat atque. Nemo rerum omnis esse
+          sint, nisi a ullam eius obcaecati sit facilis suscipit ipsa.
+        </p>
+        <button type="submit">Order Now</button>
+      </div>
     </section>
-    <footer>
-      <form>
+
+    <!-- footer/order form -->
+    <footer id="orderForm">
+      <form class="section-cta">
         <label for="name">First and Last Name</label><br />
         <input type="text" id="name" name="fname" /><br />
         <label for="email">Email address</label><br />
@@ -51,8 +73,8 @@
         <textarea name="order" id="order" rows="4" cols="50"></textarea>
         <button type="submit">Submit Order</button>
       </form>
-      <h2>Bakery</h2>
     </footer>
+    <h2>Bakery</h2>
     <script src="./script.js"></script>
   </body>
 </html>

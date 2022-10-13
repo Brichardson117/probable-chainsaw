@@ -1,17 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Raleway:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Raleway:wght@200&display=swap");
 
-*{
-    font-family: 'Raleway', serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+* {
+  font-family: "Raleway", serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#primary{
+section {
+  padding: 60px;
+}
+#primary {
+  border: 0.2rem solid black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+} 
+
+.section-cta{
+    width: 35%;
+    text-align: left;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+#menu{
     border: 0.2rem solid black;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#orderNow{
+    border: 0.2rem solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#orderForm{
+    border: 0.2rem solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
