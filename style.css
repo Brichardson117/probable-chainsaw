@@ -12,7 +12,7 @@ section {
   padding: 60px;
 }
 #primary {
-  border: 0.2rem solid black;
+  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -28,11 +28,12 @@ section {
 }
 
 #menu{
-    border: 0.2rem solid black;
+    background-color: palevioletred;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    color: white;
 }
 
 #orderNow{
@@ -44,9 +45,10 @@ section {
 }
 
 #orderForm{
-    border: 0.2rem solid black;
+    background-color: palevioletred;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    color: white;
 }
