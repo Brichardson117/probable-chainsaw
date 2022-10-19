@@ -36,13 +36,13 @@ button {
   border-radius: 30px;
   height: 50px;
   width: 100px;
-  background-color: palevioletred;
-  border: palevioletred;
-  color: white;
+  background-color: #ffebcc;
+  border: #FFEBBC;
+  color: black;
 }
 
 #menu {
-  background-color: #EBB5E6;
+  background-color: #FFAFAF;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -58,11 +58,11 @@ button {
 }
 
 footer {
-  background-color: #EBB5E6;
+  background-color: #FFAFAF;
 }
 
 #orderForm {
-  background-color: #EBB5E6;
+  background-color: #FFAFAF;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -74,11 +74,11 @@ input{
   border-radius: 15px;
   height: 30px;
   width: 200px;
-  border: #EBB5E6;
+  border: #FFAFAF;
 }
 textarea{
   border-radius: 15px;
   height: 90px;
   width: 600px;
-  border: #EBB5E6;
+  border: #FFAFAF;
 }
