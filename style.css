@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Raleway:wght@200&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 * {
   font-family: "Raleway", serif;
@@ -10,51 +9,62 @@
   box-sizing: border-box;
 }
 
-h1, h2{
-    font-family: 'Pacifico', serif;
+h1,
+h2 {
+  font-family: "Pacifico", serif;
 }
 
 section {
   padding: 60px;
 }
 #primary {
-  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-} 
-
-.section-cta{
-    width: 35%;
-    text-align: left;
-    margin: 3.5%;
-    font-size: 18px;
-    line-height: 1.2;
 }
 
-#menu{
-    background-color: palevioletred;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    color: white;
+.section-cta {
+  width: 35%;
+  text-align: left;
+  margin: 3.5%;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
-#orderNow{
-    border: 0.2rem solid black;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+#menu {
+  background-color: palevioletred;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  color: white;
 }
 
-#orderForm{
-    background-color: palevioletred;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    color: white;
+#orderNow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+footer {
+  background-color: palevioletred;
+}
+
+#orderForm {
+  background-color: palevioletred;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  color: white;
+}
+
+button {
+  border-radius: 30px;
+  height: 50px;
+  width: 100px;
+  background-color:#EBB5E6;
+  color: white;
 }
