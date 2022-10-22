@@ -12,6 +12,11 @@
 h1,
 h2 {
   font-family: "Pacifico", serif;
+  
+}
+
+h2{
+  text-align: center;
 }
 
 #primary {
@@ -65,6 +70,8 @@ button {
 
 ul li {
   list-style: none;
+  text-align: left;
+  
 }
 
 .menu-items img{
