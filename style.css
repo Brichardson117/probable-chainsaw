@@ -57,6 +57,15 @@ button {
   align-items: flex-start;
 }
 
+.menu-cta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  gap: 20px;
+}
+
 footer {
   background-color: #FFAFAF;
 }
@@ -73,12 +82,18 @@ footer {
 input{
   border-radius: 15px;
   height: 30px;
-  width: 200px;
   border: #FFAFAF;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 textarea{
   border-radius: 15px;
   height: 90px;
-  width: 600px;
   border: #FFAFAF;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
