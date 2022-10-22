@@ -60,6 +60,11 @@ button {
   align-items: center;
   gap: 20px;
   text-align: center;
+  
+}
+
+ul li {
+  list-style: none;
 }
 
 .menu-items img{
